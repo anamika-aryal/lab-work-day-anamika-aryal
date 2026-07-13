@@ -270,7 +270,9 @@ Electrically controlled switches that enable a low-voltage microcontroller to sa
 - Exposure to 10 real-world IoT projects (YouTube playlist + face recognition) and the design lessons they offer.
 ---
 ## 8. Conclusion
+
 This lab provided a foundational understanding of embedded systems and the hardware building blocks used throughout IoT development. By comparing the Raspberry Pi, ESP32, ESP8266, and Arduino Uno side by side, it became clear that board selection is a trade-off between processing power, wireless connectivity, GPIO availability, and logic voltage compatibility. Studying commonly used sensors and actuators clarified how physical-world data is captured and acted upon in a typical embedded IoT pipeline. Finally, reviewing ten real-world IoT projects connected this theory to practical, working systems and offered several design lessons — such as building offline fallbacks, using threshold-based alerting, and matching board complexity to task complexity — that are directly transferable to the Smart Academic Management System project.
+
 ---
 ## References:
 1. Nikhil, P. S., et al. (2020). An IoT Based Real-Time Low-Cost Smart Energy Meter Monitoring System Using Android Application. arXiv. https://arxiv.org/abs/2001.10350
@@ -278,3 +280,5 @@ This lab provided a foundational understanding of embedded systems and the hardw
 3. Trotta, A., et al. (2021). Design, Implementation, and Performance Evaluation of a Drone Wakeup and Data Collection System for Smart Meters. Ad Hoc Networks.
 4. Sharma, H. K., et al. (2021). Usage of IoT Framework in Water Supply Management for Smart Cities. Applied Sciences, MDPI.
 5. Al-Turjman, A., et al. (2020). A Smart, Efficient, and Reliable Parking Surveillance System with Edge AI on IoT Devices. arXiv. https://arxiv.org/abs/2001.0026
+
+---
