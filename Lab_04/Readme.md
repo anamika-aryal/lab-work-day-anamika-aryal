@@ -1,7 +1,7 @@
 # Lab 4: Familiarization with Sensors, Actuators, and Embedded Systems
-
+---
 ## 1. Title: **Familiarization with Sensors, Actuators, and Embedded Systems**
-
+---
 ## 2. Objectives
 - Understand the basic architecture of embedded systems used in IoT.
 - Become familiar with commonly used sensors and actuators.
@@ -9,12 +9,12 @@
 - Identify the features, functions, and pin configuration of the **ESP32**.
 - Identify the features, functions, and pin configuration of the **ESP8266**.
 - Identify the features, functions, and pin configuration of the **Arduino Uno**.
-
+---
 ## 3. Introduction
 An **embedded system** is a combination of hardware and software designed to perform a specific, dedicated function within a larger system. Unlike general-purpose computers, embedded systems are optimized for particular tasks such as reading sensor data, controlling actuators, or managing communication between devices.
 
 In the context of **IoT (Internet of Things)**, embedded systems form the "brain" of every smart device. A microcontroller board — such as an Arduino, ESP32, ESP8266, or a single-board computer like the Raspberry Pi — receives input from sensors, processes this information according to programmed logic, and produces output through actuators or network communication.
-
+---
 **Basic Embedded IoT Data Flow:**
 Sensor (Input) → Microcontroller/Microprocessor (Processing) → Actuator / Network (Output)
 
@@ -30,7 +30,7 @@ An embedded system combines a processor (microcontroller or microprocessor), mem
 Embedded systems in IoT typically fall into two categories:
 - **Microcontroller-based boards** (Arduino Uno, ESP32, ESP8266) – these run a single program in a loop and directly control GPIO pins.
 - **Microprocessor-based boards** (Raspberry Pi) – these run a full operating system (e.g., Raspberry Pi OS) and can multitask, making them suitable for more computation-heavy tasks like image processing or hosting a local server.
-
+---
 ### 4.2 Microcontrollers and Microprocessors for IoT
 
 #### A. Raspberry Pi
@@ -233,9 +233,9 @@ Electrically controlled switches that enable a low-voltage microcontroller to sa
 
 ### Image
 <p align="center">
-  <img src="iamge.png" alt="Relay Module" width="700">
+  <img src="img/ChatGPT Image Jul 13, 2026, 07_20_19 PM.png" alt="Relay Module" width="700">
 </p>
-
+---
 
 ## 5. Procedure
 1. Studied the architecture and characteristics of embedded systems relevant to IoT.
@@ -246,21 +246,21 @@ Electrically controlled switches that enable a low-voltage microcontroller to sa
 6. Prepared summarized notes and comparison tables for future reference in hardware selection.
 7. Carried out research on real-world IoT projects to understand practical applications of these boards, sensors, and actuators.
 
-
-## 6. Research Work: 10 IoT Projects (YouTube Playlist + Face Recognition)
-
-| # | Project Title | Brief Description | Reflection | Resource Link |
-|---|---|---|---|---|
-| 1 | Automatic Tab Changer | Arduino-based circuit that automatically switches browser tabs. | Reinforced how simple digital logic can be applied to everyday tasks. | YouTube |
-| 2 | Pollution Detection Circuit | Detects air pollution levels and triggers alerts. | Showed how environmental sensing can be integrated into IoT. | YouTube |
-| 3 | Air Quality Monitoring with Arduino MQ135 | Uses MQ135 gas sensor with Arduino to measure air quality. | Connected directly to our study of gas sensors. | YouTube |
-| 4 | ESP32 + Ultrasonic Sensor Distance Display | Combines ESP32 with ultrasonic sensor to measure distance. | Illustrated the sensor-to-microcontroller pipeline. | YouTube |
-| 5 | DIY Air Quality Monitor | Tracks air quality with sensors and IoT dashboards. | Highlighted real-time monitoring and visualization. | YouTube |
-| 6 | ESP32 Projects Compilation | Showcase of multiple ESP32-based IoT applications. | Reinforced ESP32’s versatility as a microcontroller. | YouTube |
-| 7 | ESP32 Web Server: No Cloud, Full Control | Hosts a local web server on ESP32. | Emphasized offline fallback and local control. | YouTube |
-| 8 | DIY Voice Assistant (Stellar AI Lander Style) | Voice-controlled IoT assistant using ESP32. | Showed integration of speech recognition with IoT. | YouTube |
-| 9 | Upgraded 3D Printed IoT Weather Station | Weather station with sensors and 3D-printed housing. | Reinforced combining hardware design with sensor interfacing. | YouTube |
-| 10 | Face Recognition–Based Attendance System | Uses Raspberry Pi/ESP32-CAM to capture and match faces for attendance logging. | Demonstrated IoT + AI integration, offering convenience but requiring higher processing power. | Example IoT Project |
+---
+## 6. Research Work: 10 IoT Projects 
+| **S.N.** | **Project Title**                                    | **Brief Description**                                                                         | **Reflection / Summary**                                                                           | **Project Reference**                                     | **Research Paper**                                                                                                                                                                                    |
+| :------: | ---------------------------------------------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   **1**  | Energy Meter Monitoring System                       | Monitors electricity consumption in real time using IoT sensors and cloud technology.         | Helps users track energy usage, reduce electricity wastage, and improve energy efficiency.         | Circuit Digest – *IoT Energy Meter Monitoring System*     | P. S. Nikhil et al., **"An IoT Based Real-Time Low-Cost Smart Energy Meter Monitoring System Using Android Application,"** 2020. [https://arxiv.org/abs/2001.10350](https://arxiv.org/abs/2001.10350) |
+|   **2**  | IoT Prison Break Monitoring System & Alerting System | Detects unauthorized movement near prison boundaries and sends instant alerts to authorities. | Enhances prison security through continuous monitoring and rapid emergency notification.           | Arduino Project Hub – *IoT Security Projects*             | S. Prabhu et al., **"IoT-Based Smart Surveillance System Using Wireless Sensor Networks,"** IEEE, 2019.                                                                                               |
+|   **3**  | IoT Smart Mirror with News and Temperature           | Displays date, time, weather, temperature, and news updates on a smart mirror.                | Improves daily convenience by integrating essential information into a single interactive display. | Raspberry Pi Projects – *Magic Mirror*                    | A. R. Shah et al., **"Design and Development of an IoT-Based Smart Mirror,"** International Journal of Engineering Research & Technology (IJERT), 2021.                                               |
+|   **4**  | 360° Aerial Surveillance UAV with IoT Camera         | Uses a drone equipped with an IoT camera for live aerial monitoring and surveillance.         | Enables efficient surveillance, disaster monitoring, and security applications over large areas.   | Arduino Project Hub – *Drone Projects*                    | A. Trotta et al., **"Design, Implementation, and Performance Evaluation of a Drone Wakeup and Data Collection System for Smart Meters,"** Ad Hoc Networks, 2021.                                      |
+|   **5**  | IoT Garbage Segregator & Bin Level Indicator         | Automatically segregates waste and monitors the garbage bin level using sensors.              | Promotes smart waste management and timely waste collection in smart cities.                       | Circuit Digest – *Smart Garbage Monitoring System*        | N. Kumar et al., **"IoT-Based Smart Waste Management System for Smart Cities,"** IEEE, 2020.                                                                                                          |
+|   **6**  | Gas Leakage Detection with Buzzer System             | Detects hazardous gas leakage and activates a buzzer while sending notifications.             | Increases safety by providing early warning against gas-related accidents.                         | Arduino Project Hub – *Gas Leakage Detection*             | M. A. Rahman et al., **"IoT-Based Smart Gas Monitoring and Alerting System,"** IEEE, 2021.                                                                                                            |
+|   **7**  | IoT-Based Theft Monitoring System                    | Detects unauthorized access using motion sensors and sends real-time alerts.                  | Improves home and office security through remote monitoring and instant notifications.             | Instructables – *IoT Home Security System*                | A. R. Siddique et al., **"Low-Cost Compact Theft Detection System Using MPU6050 and Blynk IoT Platform,"** 2020. [https://arxiv.org/abs/2012.10293](https://arxiv.org/abs/2012.10293)                 |
+|   **8**  | IoT Water Pollution Monitoring System                | Measures water quality parameters such as pH, turbidity, and temperature using IoT sensors.   | Supports continuous water quality monitoring and environmental protection.                         | Arduino Project Hub – *Water Quality Monitoring*          | H. K. Sharma et al., **"Usage of IoT Framework in Water Supply Management for Smart Cities,"** Applied Sciences (MDPI), 2021.                                                                         |
+|   **9**  | IoT Car Parking System                               | Detects vacant parking spaces and provides real-time parking information to users.            | Reduces traffic congestion, fuel consumption, and parking search time.                             | Circuit Digest – *Smart Parking System*                   | A. Al-Turjman et al., **"A Smart, Efficient, and Reliable Parking Surveillance System with Edge AI on IoT Devices,"** 2020. [https://arxiv.org/abs/2001.00269](https://arxiv.org/abs/2001.00269)      |
+|  **10**  | IoT Streetlight Controller System                    | Automatically controls streetlights based on ambient light intensity or motion detection.     | Conserves electrical energy while ensuring effective street illumination.                          | Arduino Project Hub – *Automatic Street Light Controller* | M. K. Priya et al., **"IoT-Based Smart Street Lighting System for Energy Conservation,"** IEEE, 2021.                                                                                                 |
+---
 
 ## 7. Output
 - Clear understanding of embedded system architecture in the context of IoT.
@@ -268,6 +268,13 @@ Electrically controlled switches that enable a low-voltage microcontroller to sa
 - Ability to select the right board for a given IoT task based on connectivity, processing power, and GPIO requirements.
 - Understanding of common IoT sensors and actuators and how they interface with a microcontroller.
 - Exposure to 10 real-world IoT projects (YouTube playlist + face recognition) and the design lessons they offer.
-
+---
 ## 8. Conclusion
 This lab provided a foundational understanding of embedded systems and the hardware building blocks used throughout IoT development. By comparing the Raspberry Pi, ESP32, ESP8266, and Arduino Uno side by side, it became clear that board selection is a trade-off between processing power, wireless connectivity, GPIO availability, and logic voltage compatibility. Studying commonly used sensors and actuators clarified how physical-world data is captured and acted upon in a typical embedded IoT pipeline. Finally, reviewing ten real-world IoT projects connected this theory to practical, working systems and offered several design lessons — such as building offline fallbacks, using threshold-based alerting, and matching board complexity to task complexity — that are directly transferable to the Smart Academic Management System project.
+---
+## References:
+1. Nikhil, P. S., et al. (2020). An IoT Based Real-Time Low-Cost Smart Energy Meter Monitoring System Using Android Application. arXiv. https://arxiv.org/abs/2001.10350
+2. Siddique, A. R., et al. (2020). Low-Cost Compact Theft Detection System Using MPU6050 and Blynk IoT Platform. arXiv. https://arxiv.org/abs/2012.10293
+3. Trotta, A., et al. (2021). Design, Implementation, and Performance Evaluation of a Drone Wakeup and Data Collection System for Smart Meters. Ad Hoc Networks.
+4. Sharma, H. K., et al. (2021). Usage of IoT Framework in Water Supply Management for Smart Cities. Applied Sciences, MDPI.
+5. Al-Turjman, A., et al. (2020). A Smart, Efficient, and Reliable Parking Surveillance System with Edge AI on IoT Devices. arXiv. https://arxiv.org/abs/2001.0026
