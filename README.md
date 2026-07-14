@@ -13,3 +13,5 @@
 | 3 | Visualizing IoT Sensor Data Using Interactive Dashboards | 2026-06-03 | Familiarization with IoT data visualization techniques |
 | 4 | Familiarization with Sensors, Actuators, and Embedded Systems | 2026-06-17 | Familiarization with IoT sensors, actuators, and embedded system platforms |
 | 5 | Integrating ESP32 Sensor Data with Cloud-Based REST API and Dashboard Visualization | 2026-07-09 | End-to-end IoT integration using ESP32, REST API, cloud database, and dashboard |
+| 6 | Case Study on Theft Monitoring System | 2026-07-12 | Understanding the scope of the case study |
+
