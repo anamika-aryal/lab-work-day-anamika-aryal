@@ -233,7 +233,7 @@ Electrically controlled switches that enable a low-voltage microcontroller to sa
 
 ### Image
 <p align="center">
-  <img src="img/ChatGPT Image Jul 13, 2026, 07_20_19 PM.png" alt="Relay Module" width="700">
+  <img src="img/Image.png" alt="Relay Module" width="700">
 </p>
 ---
 
