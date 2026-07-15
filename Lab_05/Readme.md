@@ -195,7 +195,7 @@ The ESP32 successfully acquires temperature and humidity values from the DHT22 s
 The dashboard displays the temperature values received from the REST API.
 
 <p align="center">
-  <img src="img/temp.png" alt="Temperature Dashboard" width="90%">
+  <img src="img/tempreture.png" alt="Temperature Dashboard" width="90%">
   <br>
   <em>Figure 3: Temperature Dashboard</em>
 </p>
